@@ -1,0 +1,130 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 18px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:gray;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.image {
+  background-image: url(./files/kerala.jpeg);
+  border-radius: 18px 18px 18px 18px;
+  width: 100%;
+  height: 700px;
+  background-size: cover
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  font-style: italic;
+  color: red;
+}
+.place{
+  font-style: italic;
+  font-family: 'Courier New', Courier, monospace;
+  color: green;
+  font-size: 50px;
+}
+
+.box {
+  border-radius: 18px;
+  width: 325px;
+  box-shadow: 0px 5px 10px 0px
+}
+
+.box:hover {
+  box-shadow: 0px 10px 30px 0px;
+}
+
+.munnar {
+  background-image: url(./files/munnar.jpeg);
+  border-radius: 18px 18px 0 0;
+  width: 325px;
+  height: 325px;
+  background-size: cover;
+}
+.content {
+
+
+padding: 15px;
+}
+.wayanad{
+  background-image: url(./files/Wayanad.jpeg);
+  border-radius: 18px 18px 0 0;
+  width: 325px;
+  height: 350px;
+  background-size: cover;
+
+}
+.kumarakom{
+  background-image: url(./files/kumarakom.jpeg);
+  border-radius: 18px 18px 0 0;
+  width: 325px;
+  height: 350px;
+  background-size: cover;
+
+}
+.kochi{
+  background-image: url(./files/Kochi.jpeg);
+  border-radius: 18px 18px 0 0;
+  width: 325px;
+  height: 350px;
+  background-size: cover;
+
+}
+.vagamon{
+  background-image: url(./files/Vagamon.jpeg);
+  border-radius: 18px 18px 0 0;
+  width: 325px;
+  height: 350px;
+  background-size: cover;
+}
+.idukki{
+  background-image: url(./files/IDUKKI.jpeg);
+  border-radius: 18px 18px 0 0;
+  width: 325px;
+  height: 350px;
+  background-size: cover;
+}
+
+.nelliyampathy{
+  background-image: url(./files/Nelliyampathy.jpeg);
+  border-radius: 18px 18px 0 0;
+  width: 325px;
+  height: 350px;
+  background-size: cover;
+}
+.athirapally{
+  background-image: url(./files/Athirapally.jpeg);
+  border-radius: 18px 18px 0 0;
+  width: 325px;
+  height: 350px;
+  background-size: cover;
+}
+
+  

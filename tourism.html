@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    li {
+      float: left;
+
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 10px 18px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: gray;
+    }
+
+    .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+
+    .image {
+      background-image: url(./files/kerala.jpeg);
+      border-radius: 18px 18px 18px 18px;
+      width: 100%;
+      height: 700px;
+      background-size: cover
+    }
+
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 100px;
+      font-style: italic;
+      color: red;
+    }
+
+    .place {
+      font-style: italic;
+      font-family: 'Courier New', Courier, monospace;
+      color: green;
+      font-size: 50px;
+    }
+
+    .box {
+      border-radius: 18px;
+      width: 325px;
+      height: 700px;
+      box-shadow: 0px 5px 10px 0px
+    }
+
+    .box:hover {
+      box-shadow: 0px 10px 30px 0px;
+    }
+
+    .munnar {
+      background-image: url(./files/munnar.jpeg);
+      border-radius: 18px 18px 0 0;
+      width: 325px;
+      height: 325px;
+      background-size: cover;
+    }
+
+    .content {
+
+
+      padding: 15px;
+    }
+
+    .wayanad {
+      background-image: url(./files/Wayanad.jpeg);
+      border-radius: 18px 18px 0 0;
+      width: 325px;
+      height: 350px;
+      background-size: cover;
+
+    }
+
+    .kumarakom {
+      background-image: url(./files/kumarakom.jpeg);
+      border-radius: 18px 18px 0 0;
+      width: 325px;
+      height: 350px;
+      background-size: cover;
+
+    }
+
+    .kochi {
+      background-image: url(./files/Kochi.jpeg);
+      border-radius: 18px 18px 0 0;
+      width: 325px;
+      height: 350px;
+      background-size: cover;
+
+    }
+
+    .vagamon {
+      background-image: url(./files/Vagamon.jpeg);
+      border-radius: 18px 18px 0 0;
+      width: 325px;
+      height: 350px;
+      background-size: cover;
+    }
+
+    .idukki {
+      background-image: url(./files/IDUKKI.jpeg);
+      border-radius: 18px 18px 0 0;
+      width: 325px;
+      height: 350px;
+      background-size: cover;
+    }
+
+    .nelliyampathy {
+      background-image: url(./files/Nelliyampathy.jpeg);
+      border-radius: 18px 18px 0 0;
+      width: 325px;
+      height: 350px;
+      background-size: cover;
+    }
+
+    .athirapally {
+      background-image: url(./files/Athirapally.jpeg);
+      border-radius: 18px 18px 0 0;
+      width: 325px;
+      height: 350px;
+      background-size: cover;
+    }
+
+    .row {
+      display: flex;
+    }
+
+    .column {
+      flex: 33.33%;
+      padding: 5px;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <div class="sticky">
+    <ul>
+      <li><a class="active" href="https://www.holidify.com/state/kerala/">Overview</a></li>
+      <li><a href="https://www.holidify.com/hotels/kerala/">Hotels</a></li>
+      <li><a href="https://www.holidify.com/state/kerala/photos.html">Photos</a></li>
+      <li><a href="https://www.holidify.com/state/kerala/packages.html">Packages</a></li>
+      <li><a href="https://www.holidify.com/state/kerala/best-time-to-visit.html"> Best Place to Visit</a></li>
+    </ul><br>
+  </div>
+  <div class="image"></div>
+  <div class="centered">Gods on Country</div><br>
+  <div class="place">
+    <center><b>Best Place to Visit</b></center>
+  </div><br><br>
+  <div class="row">
+    <div class="column">
+
+      <div class="box">
+        <div class="munnar"></div>
+        <div class="content">
+          <a href="https://www.holidify.com/places/munnar/"><b>Munnar</b></a><br><br>
+          <a href="https://www.holidify.com/places/munnar/">Famous for the tea estates, greenery, winding roads,<br>
+            blanket of mist, and viewpoints, Munnar is a hill station in Kerala,<br> located in the Idukki district.<br>
+            Lying in the Western Ghats at 1600 metres, it is one of the most sought after and visited travel
+            destinations globally, <br>especially popular amongst honeymooners.</a>
+        </div><!-- content -->
+      </div><!-- box --><br><br>
+    </div><!-- columns -->
+
+
+    <div class="column">
+      <div class="box">
+        <div class="wayanad"></div>
+        <div class="content">
+          <a href="https://www.holidify.com/places/wayanad/"><b>Wayanad</b></a><br><br>
+          <a href="https://www.holidify.com/places/wayanad/">Nestled in the Western Ghats of Kerala, Wayanad in Kerala
+            is famous for its spice plantations and wildlife. Situated at an altitude ranging from 700 to 2100 meters
+            above sea level, this picturesque region is blessed with verdant forests, mist-covered hills, and glistening
+            waterfalls, making it a haven for nature lovers and adventure enthusiasts alike. With its name derived from
+            'Vayal Nadu,' meaning 'Land of Paddy Fields,' Wayanad boasts fertile valleys and terraced fields that
+            contribute to its thriving agricultural economy</a>
+        </div><!-- content -->
+      </div><!-- box -->
+    </div><!-- columnn --><br><br>
+
+
+    <div class="column">
+      <div class="box">
+        <div class="kumarakom"></div>
+        <div class="content">
+          <a href="https://www.holidify.com/places/kumarakom/"><b>Kumarakom</b></a><br><br>
+          <a href="https://www.holidify.com/places/kumarakom/">With emerald green waters flanked by lush vegetation,
+            Kumarakom is an enchanting backwater destination situated 16km away from Kottayam in Kerala. Lying on the
+            banks of Vembanad Lake, Kerala's largest lake, Kumarakom is a cluster of small human-made islands reclaimed
+            from the lake. This picturesque village beckons travelers with its serene waterways, verdant landscapes, and
+            rich biodiversity, making it a quintessential destination for those seeking a peaceful retreat. </a>
+        </div><!-- content -->
+      </div><!-- box -->
+    </div><!-- columnn --><br><br>
+
+    <div class="column">
+      <div class="box">
+        <div class="kochi"></div>
+        <div class="content">
+          <a href="https://www.holidify.com/places/kochi/"><b>Kochi</b></a><br><br>
+          <a href="https://www.holidify.com/places/kochi/">Lying on the Malabar coast in the southwest of India, Kochi
+            or Cochin is a port city with a trading history that dates back to at least 600 years. Known popularly as
+            the Queen of the Arabian Sea, the city is also Kerala's financial, commercial, and industrial capital.
+            Exuding an old-world charm with diverse linguistics, such as the Jews, Konkinis, Gujaratis, and ethnic
+            communities like the anglo-indians, Kochi has an indiscriminate mix of backwaters, beaches, islands, coasts,
+            and plain terrains.</a>
+        </div><!-- content -->
+      </div><!-- box -->
+    </div><!-- columnn -->
+  </div><!-- row --><br><br>
+
+  <div class="row">
+    <div class="column">
+
+      <div class="box">
+        <div class="vagamon"></div>
+        <div class="content">
+          <a href="https://www.holidify.com/places/vagamon/"><b>Vagamon</b></a><br><br>
+          <a href="https://www.holidify.com/places/vagamon/">Vagamon, also known as Wagamon, is a tranquil hill station
+            nestled near the border of Kottayam and Idukki districts in Kerala. Offering a serene retreat from the
+            hustle and bustle of city life, Vagamon boasts meandering rivulets, verdant hills, tea gardens, pine
+            forests, and captivating waterfalls, creating a picturesque setting for travelers seeking solace amidst
+            nature's splendor. With its pleasant climate year-round, Vagamon attracts tourists throughout the year,
+            making it a perfect destination for nature lovers, adventure enthusiasts, and those seeking tranquility
+            amidst pristine surroundings.</a>
+        </div><!-- content -->
+      </div><!-- box -->
+    </div><!-- columnn --><br><br>
+
+    <div class="column">
+      <div class="box">
+        <div class="idukki"></div>
+        <div class="content">
+          <a href="https://www.holidify.com/places/idukki/"><b>Idukki</b></a><br><br>
+          <a href="https://www.holidify.com/places/idukki/">Nestled amidst the lush Western Ghats of Kerala, Idukki is a
+            captivating destination renowned for its scenic beauty, diverse wildlife, and abundant natural resources.
+            Situated approximately 140 kilometers from Kochi, Idukki offers a refreshing escape into the lap of nature,
+            making it an ideal destination for nature lovers, adventure enthusiasts, and those seeking tranquility away
+            from the bustling city life.</a>
+        </div><!-- content -->
+      </div><!-- box -->
+    </div><!-- columnn --><br><br>
+
+    <div class="column">
+      <div class="box">
+        <div class="nelliyampathy"></div>
+        <div class="content">
+          <a href="https://www.holidify.com/places/Nelliyampathy/"><b>Nelliyampathy</b></a><br><br>
+          <a href="https://www.holidify.com/places/Nelliyampathy/">A perfect place for eco-tourism and romantic
+            holidays, the region comprises of peaks of altitude ranging from 500m to 1600m providing an incredible
+            trekking trail for adventure buffs. Apart from this, Nenmara Vellanghy vela take place in the month of
+            April. It is one of the most colourful festivals celebrated on the shores of Kerala with great vigour and
+            enthusiasm. Bestowed with the best of all the elements, Nelliyampathy is a perfect getaway for all kind for
+            vacationers.</a>
+        </div><!-- content -->
+      </div><!-- box -->
+    </div><!-- columnn --><br><br>
+
+    <div class="column">
+      <div class="box">
+        <div class="athirapally"></div>
+        <div class="content">
+          <a
+            href="https://www.holidify.com/places/thrissur/athirapally-falls-sightseeing-3769.html"><b>Athirapally</b></a><br><br>
+          <a href="https://www.holidify.com/places/thrissur/athirapally-falls-sightseeing-3769.html">Located 60 km from
+            the Thrissur district of Kerala, Athirapally Falls is a marvellous cascade of frothy waters that makes its
+            way from the Anamudi mountains of the Western Ghats. Also called as Bahubali Waterfall, this 80 ft high and
+            330 ft wide marvel is the largest waterfall in Kerala. It is often referred to as the "Niagara Falls of
+            India". From here, the Athirapally falls flows through the verdant greenery of Vazhachal Forest toward the
+            Arabian Sea, creating a spectacular vista of scintillating water, emerald jungles and azure sky.</a>
+        </div><!-- content -->
+      </div><!-- box -->
+    </div><!-- columnn -->
+  </div><!-- row -->
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
